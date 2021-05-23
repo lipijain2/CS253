@@ -1,0 +1,32 @@
+COMMANDS TO BE GIVEN IN TERMINAL
+1. cd cs253_assign_3_190457                //1st command
+2. bash generate.sh                        //2nd command
+   Write program name P.c:                 //This message will get printed
+   P.c                                     //Give input P.c
+   Give value of n:                        //This message will get printed
+   40                                      //Give input value of n
+3. bash reduce.sh                          //3rd command
+   Write program name P.c:                 //This message will get printed
+   P.c                                     //Give input P.c
+   Write T.in                              //This message will get printed
+   T.in                                    //Give input T.in
+   Give value of k:                        //This message will get printed
+   8                                       //Give input value of k
+
+
+PROCEDURE
+1. Firstly, I created a sample program 'P.c' with some if-else branches on which we are going to perform experiment with the scripts.
+2. Now, I wrote a script 'generate.sh'. It takes two inputs. First is our program 'P.c' and second is an integer value for n.
+3. This script will generate random testcases and will redirect them to the file 'T.in'.
+4. Now, I created a script 'reduce.sh'. It takes total three inputs. First is our program 'P.c', second is file 'T.in' and third is the value of k.
+5. I also wrote a program 'reduce.cpp' which is compiled and executed in reduce.sh only.
+6. This program is taking input value of n,k,total number of branches and branch coverage of each testcase from reduce script and returns size of subset S and index of selected testcases to reduce.sh.
+7. I have explained functioning of each line by commenting in front of it in 'generate.sh', 'reduce.sh', and 'reduce.c'.
+8. So, finally my 'reduce.sh' is taking 3 inputs and then it is selecting appropritate testcases from 'T.in' such that branch coverage of these testcases is close to branch coverage of testcases in 'T.in'. Then it is redirecting selected testcases to the file 'S.in'.
+
+
+REFERENCES
+1. https://www.javatpoint.com/bash-read-user-input#:~:text=In%20this%20topic%2C%20we%20will,line%20from%20the%20Bash%20shell.
+2. https://linuxconfig.org/generating-random-numbers-in-bash-with-examples
+3. https://cmdlinetips.com/2011/08/how-to-count-the-number-of-lines-words-and-characters-in-a-text-file-from-terminal/
+4. https://github.com/CS253-IITK-2021/Demo-Codes

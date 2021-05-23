@@ -1,0 +1,29 @@
+STEPS
+1.Downloaded Covid_data in json format from the given link in the pdf using wget command.
+2.Created a shell script "cs253_assign_2_190457.sh".
+ and wrote following commands in it to process the data.
+3.Created a csv file named "processed_Covid_Data_190457.csv" to and wrote headers in the required format using >> command.
+4.Now wrote jq command to extract number of state, then started a for loop for each state, then used jq command to find code of each state.
+5.There was one state named TT such that its data was null so I deleted it while using jq commands. 
+5.Now extracted number of district in each state using jq command, then created a nested for loop for each district of each state, then used jq command to find name of each district.
+7.Calculated confirmed and recovered cases for each district using jq commands.
+6.Calculated recovery rate of each district by and stored the name of district with maximum recovery rate, also stored maximum recovery rate and total confirmed cases of that district. 
+7.Used if statements at appropriate place to handle boundary conditions, i.e., ignored district with name "Unknown", all districts in a state having less than 5000 confirmed cases and a particular district having less than 5000 confirmed cases.
+8.Now, used >> comamand to redirect the state name, district name with maximum recovery rate, total confirmed cases and recovery rate of that district to our csv file.
+9.Now executed our script using command bash cs253_assign_2_190457.sh.
+
+
+REFERENCES
+1.https://www.baeldung.com/linux/jq-command-json
+2.https://linuxconfig.org/how-to-parse-a-json-file-from-linux-command-line-using-jq
+3.https://stackoverflow.com/questions/11268437/how-to-convert-string-to-integer-in-unix
+4.https://linuxize.com/post/bash-break-continue/
+5.https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-continue-in-bash-loop/
+6..https://linuxize.com/post/how-to-compare-strings-in-bash/
+7.https://stackoverflow.com/questions/9733338/shell-script-remove-first-and-last-quote-from-a-variable
+8.https://stackoverflow.com/questions/39343811/in-bash-how-do-i-divide-two-variables-and-output-the-answer-rounded-upto-5-decim
+9.https://stackoverflow.com/questions/8654051/how-to-compare-two-floating-point-numbers-in-bash
+10.https://stackoverflow.com/questions/12722095/how-do-i-use-floating-point-division-in-bash
+12.https://askubuntu.com/questions/625224/how-to-redirect-stderr-to-a-file
+13.https://stackoverflow.com/questions/40175868/how-to-create-csv-file-using-shell-script
+

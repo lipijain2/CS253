@@ -1,0 +1,25 @@
+Steps
+1.Gave permissions to q2-cs253.tar.gz and then untarred q2-cs253.tar.gz and then unzipped q2-cs253.zip
+
+2.Gave read write and execute permission to the use for 3 scripts inside unzipped deirectory.
+
+3.Created 3 input files 'input1.txt', 'input2.txt', 'input3.txt' and gave 
+put to all of them.
+
+4.Now created a script script.sh and and made it executable.
+
+5.Script contain three commands to run three given script as background processes each with one of the given script and created input file. Input was given using "<" ,i.e., redirection.
+
+6.Then created a script kill.sh to kill the script process and their descendant processes.
+
+7.Then found PIDs of the 'script' processes using ps -ef, sed, grep, and awk commands.
+
+8.Then found PIDs of the processes named 'timeout' using PIDs of 'script' processes and ps -ef, sed, grep, awk commands.Then found PIDs of the processes named 'bash' using PIDs of 'timeout' processes and ps -ef, sed, grep, awk commands.Then found PIDs of the processes named 'sleep' using PID of 'bash' processes and ps -ef, sed, grep, awk commands.
+
+9.Now killed all the processes using command kill -9 $PID.
+
+
+
+
+
+

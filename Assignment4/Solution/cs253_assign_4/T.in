@@ -1,0 +1,20 @@
+Testcase:1
+10000001 OR 1;              
+anything
+
+Testcase:2
+10000001; DROP TABLE USERS;    
+anything
+
+Testcase:3
+10000001; INSERT INTO Covid_Report VALUES('Lipi',10000026,'@10000026@','NO');
+anything
+
+Testcase:4
+10000001
+anything' OR 1;
+
+Testcase:5
+10000001; DELETE FROM Covid_Report WHERE Test_No=10000026;
+anything
+

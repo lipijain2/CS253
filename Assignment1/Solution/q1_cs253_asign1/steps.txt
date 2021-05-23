@@ -1,0 +1,40 @@
+STEPS
+1.Unzipped 1611338434_cs253_assign_1.zip using command: unzip 1611338434_cs253_assign_1.zip
+
+2.Gave read write and execute permission to user using command: chmod u+rwx *
+
+3.Untar q1-cs253.tar.gz using command: tar -xf q1-cs253.tar.gz
+
+4.Unzipped q1-cs253.zip using command: unzip q1-cs253.zip
+
+5.Gave read write and execute permission to the user for both files "5688bc90-ab36-4a02-b192-d2426572bc93.gz" and "deploy.gz" inside unzipped directory using command: chmod u+rwx * 
+(NOTE: We are using * instead of file/folder name to give permision to all of them together instead of writing them individually).
+
+6.Unzipped 5688bc90-ab36-4a02-b192-d2426572bc93.gz using command: gunzip 5688bc90-ab36-4a02-b192-d2426572bc93.gz
+
+7.Unzipped deploy.gz using command: gunzip deploy.gz
+
+8.Executed 5688bc90-ab36-4a02-b192-d2426572bc93.gz using command: bash 5688bc90-ab36-4a02-b192-d2426572bc93
+Got output as: package_name -> 27E4XOS4vlryj5z
+               Run the deploy script
+               The deploy script needs 4 parameters
+
+9.Gave read write and execute permissions to two new directories "2WXYow6jQoT100a" and "fEV8wtTkCahLdSs" that were created in step 8 using command: chmod u+rwx * or we can give permission individually also by using command chmod u+rwx filename.
+
+10.After using the following command I got output in the proper manner as mentioned in the pdf Command: bash deploy fEV8wtTkCahLdSs/ 27E4XOS4vlryj5z 2WXYow6jQoT100a/ 190457
+
+Output: Sat Jan 30 16:51:13 IST 2021 27E4XOS4vlryj5z SUCCESS 
+[56e98bde-5c25-11eb-ae93-0242ac130002]
+[v3lxS-72Qq6Sh-4TOMAjT]
+
+This also created a file 190457_WpBGxzqKbbhI4
+
+11.Redirected the output to a text file using command: bash deploy fEV8wtTkCahLdSs/ 27E4KOS4vlryj5z 2WXYow6jQoT100a/ 190457 > submission-q1.txt
+
+12. Finally got submission-q1.txt file with proper output and one more file 190457_WpBGxzqKbbhI4 was created.
+
+ 
+
+ 
+
+

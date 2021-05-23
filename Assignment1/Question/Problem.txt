@@ -1,0 +1,23 @@
+Question:
+
+
+In this assignment, we are covering topics like file descriptors, processes & simple unix bash scripting. There are a lot of cool tools that are available on almost all Linux Distros.
+
+ 
+
+You are requested to explore as much as possible. 
+
+For the purpose of this assignment, we request you to use a Debian flavour of Linux like Ubuntu 18.04 or 20.04 versions. The questions in the assignments have been tested on these flavours already.
+
+ 
+ 
+
+There are two questions for this assignment and each one has been given to you in separate tar files.
+There is a PDF explaining the questions and the format of the submission.
+Assignment-1.pdf provide you with some general instructions on how to submit and proceed forward with the assignment.
+ 
+
+You might need to install additional apt packages along the way.
+Read the PDF files for more information regarding the setups that need you to install a package
+ 
+
